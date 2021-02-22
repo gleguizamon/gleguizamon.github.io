@@ -1,0 +1,52 @@
+body {
+    background-color: #e9ecef;
+}
+
+.bg1 {
+    background-color: #e9ecef;
+}
+
+.bg2 {
+    background-color: #e9ecef;
+    margin-bottom: 10%;
+}
+
+.bg3 {
+    background-color: #e9ecef;
+    margin-bottom: 10%;
+}
+
+.bg4 {
+    background-color: #e9ecef;
+    margin-bottom: 5%;
+}
+
+.bg5 {
+    background-color: #343a40;
+    color: whitesmoke;
+}
+
+#img {
+    max-width: 20%;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.projects {
+    max-width: 90%;
+    width: 90%;
+    height: auto;
+    border-radius: 10%;
+    padding: 5%;
+}
+
+.icons {
+    width: 50px;
+    height: 30px;
+}
+
+.footer {
+    position: relative;
+    top: -20px;
+}
