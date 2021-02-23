@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #e9ecef;
 }
@@ -39,6 +43,10 @@ body {
     height: auto;
     border-radius: 10%;
     padding: 5%;
+}
+
+#center-grid {
+    padding-left: 50px;
 }
 
 .icons {
