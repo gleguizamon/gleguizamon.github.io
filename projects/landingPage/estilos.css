@@ -1,0 +1,22 @@
+body {
+    font-family: 'Newsreader', serif;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+img {
+    width: 30%;
+    margin: 1.4%;
+}
+h1 {
+    margin-left: 11%;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    width: 25%;
+    padding-bottom: 5px;
+}
+#contacto {
+    margin-left: 11%;
+}

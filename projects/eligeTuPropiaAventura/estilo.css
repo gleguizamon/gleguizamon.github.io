@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/3d/2d/81/3d2d81414e78fb752c889f6f819e0790.jpg);
+    width: 100%;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+a {
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+.destino {
+    width: 700px;
+    height: auto;
+}
+div {
+    width:37%;
+    padding:8px;
+    margin:auto;
+}
