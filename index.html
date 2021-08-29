@@ -1,151 +1,212 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gonzalo Leguizamon</title>
-    <link rel="stylesheet" href="styles/bootstrap.css">
-    <link rel="stylesheet" href="styles/syles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/syles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
+  </head>
+  <body>
     <!-- Navbar collapsible -->
     <section>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#portfolio">Gonzalo Leguizamon</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#acerca">Acerca de mí</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#portfolio">Gonzalo Leguizamon</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#acerca">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </section>
 
     <!-- Header -->
     <section class="bg1" id="portfolio">
-        <header>
-            <div class="mx-auto" style="width: 70%;">
-                <div class="jumbotron jumbotron-fluid">
-                    <div class="container">
-                        <h1 class="display-4">Gonzalo Leguizamon</h1>
-                        <img src="images/perfil.jpg" alt="perfil-responsive" id="img" class="perfil">
-                    </div>
-                </div>
+      <header>
+        <div class="mx-auto" style="width: 70%">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Gonzalo Leguizamon</h1>
+              <img src="images/perfil.jpg" alt="perfil-responsive" id="img" class="perfil" />
             </div>
-        </header>
+          </div>
+        </div>
+      </header>
     </section>
 
     <!-- Projects -->
     <section class="bg2">
-        <div class="container" id="center-grid">
+      <div class="container" id="center-grid">
+        <div class="row">
+          <div class="col-sm">
+            <a href="projects/blog/index.html" target="_blank">
+              <img src="images/blog.png" alt="" class="projects" />
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="projects/carousel/index.html" target="_blank">
+              <img src="images/css.png" alt="" class="projects" />
+            </a>
+          </div>
+          <div class="col-sm">
+            <a href="projects/eligeTuPropiaAventura/index.html" target="_blank">
+              <img src="images/etpa.png" alt="" class="projects" />
+            </a>
+          </div>
+          <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <a href="projects/blog/index.html" target="_blank">
-                        <img src="images/blog.png" alt="" class="projects">
-                    </a>
-                </div>
-                <div class="col-sm">
-                    <a href="projects/carousel/index.html" target="_blank">
-                        <img src="images/css.png" alt="" class="projects">
-                    </a>
-                </div>
-                <div class="col-sm">
-                    <a href="projects/eligeTuPropiaAventura/index.html" target="_blank">
-                        <img src="images/etpa.png" alt="" class="projects">
-                    </a>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm">
-                            <a href="projects/instaPet/index.html" target="_blank">
-                                <img src="images/instapet.png" alt="" class="projects">
-                            </a>
-                        </div>
-                        <div class="col-sm">
-                            <a href="projects/landingPage/index.html" target="_blank">
-                                <img src="images/dabke.png" alt="" class="projects">
-                            </a>
-                        </div>
-                        <div class="col-sm">
-                            <a href="projects/todoJunto/index.html" target="_blank">
-                                <img src="images/web.png" alt="" class="projects">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              <div class="col-sm">
+                <a href="projects/instaPet/index.html" target="_blank">
+                  <img src="images/instapet.png" alt="" class="projects" />
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="projects/landingPage/index.html" target="_blank">
+                  <img src="images/dabke.png" alt="" class="projects" />
+                </a>
+              </div>
+              <div class="col-sm">
+                <a href="projects/todoJunto/index.html" target="_blank">
+                  <img src="images/web.png" alt="" class="projects" />
+                </a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- About me -->
     <section class="bg3" id="acerca">
-        <div class="container">
-            <h2 class="text-center">Acerca de mí</h2>
-            <hr>
-            <p class="lead" class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ea aperiam repellat similique necessitatibus minima pariatur amet recusandae voluptatem quasi maxime ipsam laborum illo ut excepturi illum, quae, blanditiis rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae beatae quis ex cum ipsam obcaecati quo odio, perspiciatis autem praesentium distinctio rem amet in consequuntur veniam illum doloremque? Neque, aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus sit enim repellendus, similique eius reiciendis inventore rem quo nam cupiditate, suscipit aperiam error porro optio perspiciatis ullam voluptate quisquam quis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt ducimus eligendi quisquam libero, dicta id consequatur magnam vero tempora blanditiis praesentium eveniet nulla sint nihil maxime saepe iste dolore.</p>
-        </div>
+      <div class="container">
+        <h2 class="text-center">Acerca de mí</h2>
+        <hr />
+        <p class="lead" class="text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora ea aperiam repellat
+          similique necessitatibus minima pariatur amet recusandae voluptatem quasi maxime ipsam
+          laborum illo ut excepturi illum, quae, blanditiis rerum. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Quae beatae quis ex cum ipsam obcaecati quo odio,
+          perspiciatis autem praesentium distinctio rem amet in consequuntur veniam illum
+          doloremque? Neque, aliquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Ducimus sit enim repellendus, similique eius reiciendis inventore rem quo nam cupiditate,
+          suscipit aperiam error porro optio perspiciatis ullam voluptate quisquam quis! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Incidunt nesciunt ducimus eligendi quisquam
+          libero, dicta id consequatur magnam vero tempora blanditiis praesentium eveniet nulla sint
+          nihil maxime saepe iste dolore.
+        </p>
+      </div>
     </section>
 
     <!-- Contact me -->
     <section class="bg4" id="contacto">
-        <div class="container">
-            <h2 class="text-center">Contactame</h2>
-            <hr>
-            <form>
-                <div class="form-group">
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required>
-                </div>
-                <div class="form-group">
-                    <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Número de teléfono" required>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje" required></textarea>
-                  </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2 class="text-center">Contactame</h2>
+        <hr />
+        <form>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Nombre"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="number"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Número de teléfono"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer -->
     <section class="bg5">
-        <footer><hr>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-10">
-                        <p> &copy; Gonzalo Leguizamon - Todos los derechos reservados</p>
-                        <p class="footer">2021</p>
-                    </div>
-                    <div class="col-sm">
-                        <a href="https://www.linkedin.com/in/gonzalo-leguizam%C3%B3n-8893b81ba/" target="_blank">
-                            <img src="icons/linkedin.svg" alt="linkedin" class="icons">
-                        </a>
-                        <a href="https://github.com/gleguizamon" target="_blank" id="specify">
-                            <img src="icons/github.svg" alt="github" class="icons">
-                        </a>
-                    </div>
-                </div>
+      <footer>
+        <hr />
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-10">
+              <p>&copy; Gonzalo Leguizamon - Todos los derechos reservados</p>
+              <p class="footer">2021</p>
             </div>
-        </footer>
+            <div class="col-sm">
+              <a
+                href="https://www.linkedin.com/in/gonzalo-leguizam%C3%B3n-8893b81ba/"
+                target="_blank"
+              >
+                <img src="icons/linkedin.svg" alt="linkedin" class="icons" />
+              </a>
+              <a href="https://github.com/gleguizamon" target="_blank" id="specify">
+                <img src="icons/github.svg" alt="github" class="icons" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </section>
 
     <!-- Código Javascript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

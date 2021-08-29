@@ -1,74 +1,74 @@
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #e9ecef;
+  background-color: #e9ecef;
 }
 
 .bg1 {
-    background-color: #e9ecef;
+  background-color: #e9ecef;
 }
 
 .bg2 {
-    background-color: #e9ecef;
-    margin-bottom: 10%;
+  background-color: #e9ecef;
+  margin-bottom: 10%;
 }
 
 .bg3 {
-    background-color: #e9ecef;
-    margin-bottom: 10%;
+  background-color: #e9ecef;
+  margin-bottom: 10%;
 }
 
 .bg4 {
-    background-color: #e9ecef;
-    margin-bottom: 5%;
+  background-color: #e9ecef;
+  margin-bottom: 5%;
 }
 
 .bg5 {
-    background-color: #343a40;
-    color: whitesmoke;
+  background-color: #343a40;
+  color: whitesmoke;
 }
 
 #img {
-    max-width: 100%;
-    width: 183px;
-    height: auto;
-    border-radius: 50%;
+  max-width: 100%;
+  width: 183px;
+  height: auto;
+  border-radius: 50%;
 }
 
 .projects {
-    max-width: 90%;
-    width: 90%;
-    height: auto;
-    border-radius: 10%;
-    padding: 5%;
+  max-width: 90%;
+  width: 90%;
+  height: auto;
+  border-radius: 10%;
+  padding: 5%;
 }
 
 #center-grid {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 .icons {
-    width: 50px;
-    height: 30px;
-    margin: 0px -10px 20px -10px;
+  width: 50px;
+  height: 30px;
+  margin: 0px -10px 20px -10px;
 }
 
 #specify {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .perfil {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
 }
 
 .display-4 {
-    text-align: center;
+  text-align: center;
 }
 
 .footer {
-    position: relative;
-    top: -20px;
+  position: relative;
+  top: -20px;
 }
